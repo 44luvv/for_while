@@ -4,7 +4,7 @@ def start():
     numm = int(input("Введите число: "))
     count = 0
 
-    for i in range(1, 10):
+    for i in range(1, numm + 1):
         if numm < 0:
             break
         else:
